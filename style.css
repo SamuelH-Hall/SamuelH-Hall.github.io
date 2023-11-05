@@ -1,0 +1,124 @@
+
+body {
+    font-family: 'Roboto', sansserif;
+    margin: 0;
+    padding: 0;
+    background-color: #708D9E;
+    color: #333;
+}
+
+header {
+    background-color: #EFE8D8;
+    color: #0a0909;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #EFE8D8;
+    box-shadow: 0 0 10px rgba(0. 0, 0.1);
+    text-align: center;
+    border-style: ridge;
+}
+
+h2 {
+    color: #333;
+}
+
+h5 {
+    font-size: medium;
+    text-align: left;
+}
+
+project {
+    margin-bottom: 20px;
+}
+
+project img {
+    max-width: 100%;
+    height: auto;
+}
+
+aboutme {
+    margin-bottom: 20px;
+}
+
+aboutme img {
+    max-width: 100%;
+    height: auto;
+    border-style: ridge;
+}
+
+li {
+    list-style-type: disc;
+    text-align: justify;
+    padding-left: 10px;
+    margin-left: 40px;
+}
+
+p {
+    text-align: justify;
+    align-content: center;
+    text-justify: auto;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+p1 {
+    text-align: center;
+    font-size: 18px;
+}
+/* button class */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    color: #111;
+    background-color: #708D9E;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: #333;
+    transition: background-color 0.3s, color 0.3s;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #3a6788;
+    opacity: 0.9;
+}
+/* formatting for the icons */
+
+.profiles {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.profiles a{
+    padding: 20px;
+    background-color: #EFE8D8;
+    color: #050404;
+    margin: 16px;
+    border-radius: 50%;
+}
+
+.profiles a i{
+    font-size: 20em;
+    color: #111;
+    opacity: 0.9;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #EFE8D8;
+    color: #050404;
+}
